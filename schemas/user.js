@@ -11,6 +11,11 @@ export default defineType({
       type: "string",
     }),
     defineField({
+      name: "id",
+      title: "User Id",
+      type: "string",
+    }),
+    defineField({
       name: "email",
       title: "Email",
       type: "string",
@@ -41,7 +46,7 @@ export default defineType({
     defineField({
       name: "emailVerified",
       title: "EmailVerified",
-      type: "boolean",
+      type: "string",
     }),
     defineField({
       name: "bio",
