@@ -1,23 +1,23 @@
-import { defineField, defineType } from "sanity";
+import {defineField, defineType} from 'sanity'
 export default defineType({
-  name: "token",
-  title: "Verification Token",
-  type: "document",
+  name: 'token',
+  title: 'Verification Token',
+  type: 'document',
   fields: [
     defineField({
-      name: "identifier",
-      title: "Identifier",
-      type: "string",
+      name: 'identifier',
+      title: 'Identifier',
+      type: 'string',
     }),
     defineField({
-      name: "token",
-      title: "Token",
-      type: "string",
+      name: 'token',
+      title: 'Token',
+      type: 'string',
     }),
     defineField({
-      name: "expires",
-      title: "Expires",
-      type: "date",
+      name: 'expires',
+      title: 'Expires',
+      type: 'date',
     }),
   ],
-});
+})
